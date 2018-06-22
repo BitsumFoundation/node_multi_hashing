@@ -1,5 +1,5 @@
 {
-    "name": "node_multi_hashing",
+    "name": "multi-hashing",
     "version": "0.18.6.22",
     "main": "multihashing",
     "gypfile": true,
