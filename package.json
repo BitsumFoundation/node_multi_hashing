@@ -1,0 +1,36 @@
+{
+    "name": "node_multi_hashing",
+    "version": "0.18.6.22",
+    "main": "multihashing",
+    "gypfile": true,
+    "author": {
+        "name": "Matthew Little",
+        "email": "zone117x@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BitsumFoundation/node_multi_hashing.git"
+    },
+    "scripts": {
+        "test": "node-gyp clean && node-gyp configure && node-gyp build"
+    },
+    "dependencies": {
+        "bindings": "*",
+        "nan": "^2.6.2"
+    },
+    "keywords": [
+        "scrypt",
+        "scryptjane",
+        "script-n",
+        "x11",
+        "quark",
+        "keccak_hash",
+        "skein",
+        "bcrypt",
+        "keccak",
+        "blake",
+        "shavite",
+        "fugue",
+        "sha1"
+    ]
+}
